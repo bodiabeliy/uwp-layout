@@ -9,10 +9,12 @@ import Navbar from "@/widgets/Navbar/Navbar";
 const MainInfoScreen = () => {
 
     return ( 
-       <div className="bg-neutral-900 h-screen	">
-            <Navbar />
+       <div className="bg-neutral-900 h-screen relative overflow-hidden">
+          <div className="f-full">
+          <Navbar />
             <RightBlurContainer />
             <MainInfoScreenContent />
+          </div>
         </div>
       
      );
